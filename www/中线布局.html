@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            background-color: yellowgreen;
+            position: relative;
+        }
+
+        .little {
+            width: 150px;
+            height: 150px;
+            background-color:red;
+
+            /* 中线对齐的三行代码 */
+            position: absolute;
+
+            /* 让元素以中线作为参考 */
+            left: 50%;
+
+            /* 通过改变margin-left来调整元素位置 */
+            margin-left: -75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="little"></div>
+    </div>
+</body>
+</html>

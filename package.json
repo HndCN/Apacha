@@ -1,0 +1,26 @@
+{
+  "name": "02.apacha",
+  "version": "1.0.0",
+  "description": "自己实现的静态资源服务器",
+  "main": "app.js",
+  "dependencies": {
+    "mime": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HndCN/Apacha.git"
+  },
+  "keywords": [
+    "good"
+  ],
+  "author": "dou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HndCN/Apacha/issues"
+  },
+  "homepage": "https://github.com/HndCN/Apacha#readme"
+}
